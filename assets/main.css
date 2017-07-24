@@ -237,6 +237,9 @@ pre {
     height: 100px;
     margin: 0 auto;
     display: block; }
+    .link-box img:hover {
+      transform: rotate(350deg);
+      transition: 0.5s; }
   @media screen and (max-width: 600px) {
     .link-box {
       width: 49%; } }
