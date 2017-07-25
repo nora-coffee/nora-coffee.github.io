@@ -1,5 +1,7 @@
+
+
 $(document).ready(function(){
-  $("body").hide().fadeIn(2000);
+  $("body").hide().fadeIn(1500);
 
   $('.beans').click(function(){
     $(".beans div").removeClass("active");
