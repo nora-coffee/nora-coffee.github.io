@@ -259,6 +259,16 @@ pre {
 .tweet {
   width: 40%; }
 
+.beans {
+  width: 200px; }
+
+.beans-description {
+  display: none; }
+
+.beans-appear {
+  opacity: 1;
+  transition: 0.5s; }
+
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
