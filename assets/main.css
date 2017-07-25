@@ -259,15 +259,24 @@ pre {
 .tweet {
   width: 40%; }
 
-.beans {
+.beans img {
   width: 200px; }
+.beans div {
+  float: right;
+  width: 700px;
+  max-width: 100%; }
+  .beans div p span {
+    text-decoration: underline; }
 
-.beans-description {
-  display: none; }
+.inactive {
+  opacity: 0;
+  transition: 0.5s;
+  height: 0; }
 
-.beans-appear {
+.active {
   opacity: 1;
-  transition: 0.5s; }
+  transition: 0.5s;
+  height: auto; }
 
 .site-header {
   border-top: 5px solid #424242;
