@@ -278,6 +278,19 @@ pre {
   transition: 0.5s;
   height: auto; }
 
+.button {
+  padding: 10px;
+  border: 2px solid #1313f9;
+  border-radius: 50px;
+  display: block;
+  margin: 30px auto;
+  width: 230px;
+  text-align: center; }
+  .button:hover {
+    transition: .5s;
+    background-color: #1313f9;
+    color: #fff; }
+
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
