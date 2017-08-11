@@ -164,7 +164,8 @@ pre {
 .candc {
   width: 100%;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  opacity: 0.9; }
   .candc h2 {
     color: #fff;
     position: absolute;
