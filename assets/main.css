@@ -310,6 +310,7 @@ pre {
 
 .site-nav {
   float: right;
+  z-index: 1;
   line-height: 54px; }
   .site-nav .nav-trigger {
     display: none; }
@@ -367,7 +368,8 @@ pre {
           margin-right: 0; } }
 
 .trigger {
-  padding: 10px; }
+  padding: 10px;
+  background-color: #fff; }
   .trigger a img {
     width: 30px; }
 
